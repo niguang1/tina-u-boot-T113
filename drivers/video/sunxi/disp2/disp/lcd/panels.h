@@ -272,4 +272,9 @@ extern __lcd_panel_t t050k589_panel;
 #ifdef CONFIG_LCD_SUPPORT_K101_MM2QA01_A
 extern __lcd_panel_t K101_MM2QA01_A_mipi_panel;
 #endif
+
+#ifdef CONFIG_LCD_SUPPORT_EP28060_480X640
+extern __lcd_panel_t ep28060_panel;
+#endif
+
 #endif

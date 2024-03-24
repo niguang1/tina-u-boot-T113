@@ -171,7 +171,9 @@ __lcd_panel_t* panel_array[] = {
 	&K101_MM2QA01_A_mipi_panel,
 #endif
 	/* add new panel below */
-
+#ifdef CONFIG_LCD_SUPPORT_EP28060_480X640
+	&ep28060_panel,
+#endif
 	NULL,
 };
 
